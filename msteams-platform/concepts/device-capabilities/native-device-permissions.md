@@ -155,8 +155,8 @@ To prompt user to share location on map interface, Teams mobile will ask permiss
 
 ```JavaScript 
 microsoftTeams.location.getLocation({ allowChooseLocation: true, showMap: true }, (error: microsoftTeams.SdkError, location: microsoftTeams.location.Location) => {
-  /* ... *
-/});
+  /* ... */
+});
 ```
 
 # [Desktop](#tab/desktop)
